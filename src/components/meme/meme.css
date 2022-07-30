@@ -34,3 +34,11 @@
     font-weight: 700;
     padding-block: 10px;
 }
+
+#meme > img {
+    background-color: black;
+    margin: 36px;
+    width: 477px;
+    height: 268px;
+    object-fit: contain;
+}
