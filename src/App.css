@@ -3,6 +3,6 @@
   box-sizing: border-box;
 }
 
-body {
+body, input, button {
   font-family: 'Karla', sans-serif;
 }
