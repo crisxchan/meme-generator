@@ -35,10 +35,41 @@
     padding-block: 10px;
 }
 
-#meme > img {
-    background-color: black;
+#meme-wrapper {
+    position: relative;
     margin: 36px;
+}
+
+#meme-wrapper > img {
     width: 477px;
-    height: 268px;
-    object-fit: contain;
+}
+
+.meme-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+    top: 16px;
+}
+
+.bottom {
+    bottom: 16px;
 }
